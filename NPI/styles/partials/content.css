@@ -1,0 +1,43 @@
+:root{
+    font-family: Verdana, Geneva, sans-serif;
+    --color-header: #ff6600;
+    --color-header-hold:#e67d37 ;
+    --color-background: #ffffff;
+    --color-bg-center: #f3f1eaef;
+    --color-sub-text:#797979;
+    --color-font: #070707 ;
+    
+    font-size: 70%;
+}
+.content {
+    padding-bottom: 15px;
+    background-color: var(--color-bg-center);
+    font-size: 15px;
+}
+
+.content a {
+    text-decoration: none;
+    color: var(--color-font);
+}
+
+.content img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+.subtext {
+    font-size: 10px;
+    margin-left: 40px;
+    color: var(--color-sub-text);
+}
+
+.content span {
+    color: var(--color-sub-text);
+}
+
+.content .more{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
